@@ -1,0 +1,30 @@
+installing
+-> nest new myApp
+
+nest g module user
+nest g controller user
+nest g service user
+forCrudOperation
+nest g resource [name]
+
+https://github.dev/bitfumes/nestjs-course-2022
+
+#Introduction
+=>Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications
+=>Under the hood, Nest makes use of robust HTTP Server frameworks like Express (the default) and 
+optionally can be configured to use Fastify as well!
+
+#controller
+=>Controllers are responsible for handling incoming requests and returning responses to the client.
+
+#Providers(@Injectable())
+=> Many of the basic Nest classes may be treated as a provider – services, repositories, factories, helpers, and so on. The main idea of a provider is that it can be injected as a dependency
+
+# Modules(@Module())
+=>Modules in Nest.js organize the application into cohesive units, encapsulating related services, controllers, and features. 
+They promote modularity and reusability by defining clear boundaries and dependencies, 
+facilitating maintainability and scalability. 
+With modules, developers can easily manage and extend the application's functionality.
+
+#Middleware
+=>Middleware is a function which is called before the route handler. Middleware functions have access to the request and response objects, and the next() middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named next.
