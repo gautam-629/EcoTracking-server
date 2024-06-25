@@ -1,10 +1,13 @@
 import { Injectable } from '@nestjs/common';
+import { MySQLService } from 'src/database.service';
 
 
 // This should be a real class/interface representing a user entity
 export type User = any;
 @Injectable()
 export class UsersService {
+
+  constructor(private readonly mySQLService: MySQLService) {}
     private readonly users = [
         {
           userId: 1,
@@ -20,5 +23,10 @@ export class UsersService {
 
      async findOne(username:string):Promise<User | undefined>{
           return this.users.find(user=>user.username===username)
+      }
+
+      async create(item: any) {
+        const sql = 'INSERT INTO users (username,email,password) VALUES (?, ?,?)';
+        return this.mySQLService.query(sql, [item.username, item.email,item.password]);
       }
 }
