@@ -1,0 +1,28 @@
+[
+    {
+      "_id": "60d0fe4f5311236168a109ca",
+      "name": "Mountain",
+      "description": "Hiking or trekking spots located in mountainous regions."
+    },
+    {
+      "_id": "60d0fe4f5311236168a109cb",
+      "name": "Valley",
+      "description": "Hiking or trekking spots located in valleys."
+    },
+    {
+      "_id": "60d0fe4f5311236168a109cc",
+      "name": "Lake",
+      "description": "Hiking or trekking spots near lakes."
+    },
+    {
+      "_id": "60d0fe4f5311236168a109cd",
+      "name": "Cultural",
+      "description": "Hiking or trekking spots with significant cultural or historical value."
+    },
+    {
+      "_id": "60d0fe4f5311236168a109ce",
+      "name": "Remote",
+      "description": "Hiking or trekking spots in remote and less-traveled areas."
+    }
+  ]
+  
