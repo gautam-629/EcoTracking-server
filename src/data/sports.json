@@ -1,434 +1,102 @@
 [
   {
-    "name": "Everest Base Camp",
-    "description": "A challenging trek to the base of the world's highest mountain.",
-    "difficultyLevel": "Difficult",
-    "type": "Trekking",
-    "latitude": 28.0013,
-    "longitude": 86.8528,
+    "name": "Shivapuri Peak",
+    "description": "A serene hiking haven offering breathtaking panoramic vistas of the Kathmandu Valley. Challenge yourself with a moderate hike to be rewarded with unparalleled views.",
+    "difficultyLevel": "Moderate",
+    "type": "Hiking",
+    "latitude": 27.7980,
+    "longitude": 85.3482,
     "categories": ["60d0fe4f5311236168a109ca"],
-    "images": [{}]
+    "images": ["/uploads/shivapuri1.jpg", "/uploads/shivapuri2.jpg"]
   },
   {
-    "name": "Annapurna Circuit",
-    "description": "A classic trek around the Annapurna massif.",
-    "difficultyLevel": "Moderate",
-    "type": "Trekking",
-    "latitude": 28.5961,
-    "longitude": 83.8203,
-    "categories": ["60d0fe4f5311236168a109cb"],
-    "images": ["annapurna_circuit.jpg"]
-  },
-  
-  {
-    "name": "Nagarkot",
-    "description": "A popular spot for sunrise and sunset views over the Himalayas.",
+    "name": "Nagarkot Sunrise Trail",
+    "description": "Experience the magic of dawn as you witness the sun paint the Himalayan giants in hues of gold and pink. An easy trail perfect for all, making it an ideal spot to start your day.",
     "difficultyLevel": "Easy",
     "type": "Hiking",
-    "latitude": 27.7221,
-    "longitude": 85.3033,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["nagarkot.jpg"]
+    "latitude": 27.7157,
+    "longitude": 85.5207,
+    "categories": ["60d0fe4f5311236168a109ca"], 
+    "images": ["/uploads/nagarkot1.jpg", "/uploads/nagarkot2.jpg"]
   },
   {
-    "name": "Dhulikhel",
-    "description": "A serene spot offering panoramic views of the Himalayas and surrounding valleys.",
-    "difficultyLevel": "Easy",
-    "type": "Hiking",
-    "latitude": 27.6417,
-    "longitude": 85.5464,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["dhulikhel.jpg"]
-  },
-  {
-    "name": "Bhaktapur Durbar Square",
-    "description": "An ancient square known for its historic temples and pagodas.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 27.6735,
-    "longitude": 85.4306,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["bhaktapur_durbar.jpg"]
-  },
-  {
-    "name": "Patan Durbar Square",
-    "description": "A historic square in Lalitpur with beautiful architecture and temples.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 27.6666,
-    "longitude": 85.3240,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["patan_durbar.jpg"]
-  },
-  {
-    "name": "Swayambhunath (Monkey Temple)",
-    "description": "An ancient religious complex atop a hill with panoramic views of Kathmandu.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 27.7148,
-    "longitude": 85.2904,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["swayambhunath.jpg"]
-  },
-  {
-    "name": "Boudhanath Stupa",
-    "description": "One of the largest stupas in Nepal, a significant Buddhist pilgrimage site.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 27.7131,
-    "longitude": 85.2904,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["boudhanath.jpg"]
-  },
-  {
-    "name": "Chandragiri Hill",
-    "description": "A popular hill station with stunning views of the Himalayas and Kathmandu Valley.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 27.6514,
-    "longitude": 85.2885,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["chandragiri.jpg"]
-  },
-
-  {
-    "name": "Gosaikunda",
-    "description": "A sacred lake trek in Langtang National Park.",
+    "name": "Champadevi Hill",
+    "description": "Embark on a spiritual journey as you ascend this sacred hill. The challenging trek is rewarded with serene ambiance and panoramic views.",
     "difficultyLevel": "Moderate",
     "type": "Trekking",
-    "latitude": 28.0836,
-    "longitude": 85.4134,
-    "categories": ["60d0fe4f5311236168a109ca"],
-    "images": ["gosaikunda.jpg"]
+    "latitude": 27.6717,
+    "longitude": 85.2731,
+    "categories": ["60d0fe4f5311236168a109ca", "60d0fe4f5311236168a109cd"], 
+    "images": ["/uploads/champadevi1.jpg", "/uploads/champadevi2.jpg"]
   },
   {
-    "name": "Poon Hill",
-    "description": "A short trek offering panoramic views of the Annapurna range.",
-    "difficultyLevel": "Easy",
-    "type": "Hiking",
-    "latitude": 28.4006,
-    "longitude": 83.6781,
-    "categories": ["60d0fe4f5311236168a109cb"],
-    "images": ["poon_hill.jpg"]
-  },
-  {
-    "name": "Langtang Valley",
-    "description": "A scenic trek through the Langtang National Park.",
-    "difficultyLevel": "Moderate",
-    "type": "Trekking",
-    "latitude": 28.2611,
-    "longitude": 85.5808,
-    "categories": ["60d0fe4f5311236168a109cc"],
-    "images": ["langtang_valley.jpg"]
-  },
-  {
-    "name": "Upper Mustang",
-    "description": "A cultural trek through the ancient kingdom of Mustang.",
-    "difficultyLevel": "Moderate",
-    "type": "Trekking",
-    "latitude": 29.0750,
-    "longitude": 83.9414,
-    "categories": ["60d0fe4f5311236168a109cd"],
-    "images": ["upper_mustang.jpg"]
-  },
-  {
-    "name": "Manaslu Circuit",
-    "description": "A challenging trek around the Manaslu massif.",
+    "name": "Phulchowki Hill",
+    "description": "Conquer the highest point in the Kathmandu Valley. This demanding trek through diverse flora and fauna promises an unforgettable adventure for experienced trekkers.",
     "difficultyLevel": "Difficult",
     "type": "Trekking",
-    "latitude": 28.5525,
-    "longitude": 84.5600,
-    "categories": ["60d0fe4f5311236168a109ce"],
-    "images": ["manaslu_circuit.jpg"]
+    "latitude": 27.6124,
+    "longitude": 85.3616,
+    "categories": ["60d0fe4f5311236168a109ca", "60d0fe4f5311236168a109ce"], 
+    "images": ["/uploads/phulchowki1.jpg", "/uploads/phulchowki2.jpg"]
   },
   {
-    "name": "Helambu Trek",
-    "description": "A short and easy trek near Kathmandu.",
+    "name": "Gokarna Forest",
+    "description": "Escape the city's hustle and bustle in this peaceful oasis. Enjoy easy hikes amidst lush greenery, perfect for a rejuvenating nature retreat.",
     "difficultyLevel": "Easy",
     "type": "Hiking",
-    "latitude": 28.0524,
-    "longitude": 85.4213,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["helambu_trek.jpg"]
-  },
-  {
-    "name": "Rara Lake",
-    "description": "A trek to the largest lake in Nepal.",
-    "difficultyLevel": "Moderate",
-    "type": "Trekking",
-    "latitude": 29.5389,
-    "longitude": 82.1217,
-    "categories": ["60d0fe4f5311236168a109d0"],
-    "images": ["rara_lake.jpg"]
-  },
-  {
-    "name": "Ghorepani",
-    "description": "A popular trekking route in the Annapurna region.",
-    "difficultyLevel": "Easy",
-    "type": "Hiking",
-    "latitude": 28.4031,
-    "longitude": 83.6907,
-    "categories": ["60d0fe4f5311236168a109d1"],
-    "images": ["ghorepani.jpg"]
-  },
-  {
-    "name": "Kanchenjunga Base Camp",
-    "description": "A remote trek to the base of the third highest mountain in the world.",
-    "difficultyLevel": "Difficult",
-    "type": "Trekking",
-    "latitude": 27.7025,
-    "longitude": 88.1473,
-    "categories": ["60d0fe4f5311236168a109d2"],
-    "images": ["kanchenjunga_base_camp.jpg"]
-  },
-  {
-    "name": "Makalu Base Camp",
-    "description": "A challenging trek to the base of the fifth highest mountain in the world.",
-    "difficultyLevel": "Difficult",
-    "type": "Trekking",
-    "latitude": 27.8897,
-    "longitude": 87.0897,
-    "categories": ["60d0fe4f5311236168a109d3"],
-    "images": ["makalu_base_camp.jpg"]
-  },
-  {
-    "name": "Tilicho Lake",
-    "description": "A trek to one of the highest lakes in the world.",
-    "difficultyLevel": "Difficult",
-    "type": "Trekking",
-    "latitude": 28.6802,
-    "longitude": 83.8610,
-    "categories": ["60d0fe4f5311236168a109d4"],
-    "images": ["tilicho_lake.jpg"]
-  },
-  {
-    "name": "Mardi Himal",
-    "description": "A less crowded trek in the Annapurna region.",
-    "difficultyLevel": "Moderate",
-    "type": "Trekking",
-    "latitude": 28.4495,
-    "longitude": 83.9251,
-    "categories": ["60d0fe4f5311236168a109d5"],
-    "images": ["mardi_himal.jpg"]
-  },
-  {
-    "name": "Dhampus Trek",
-    "description": "A short and easy trek near Pokhara.",
-    "difficultyLevel": "Easy",
-    "type": "Hiking",
-    "latitude": 28.2533,
-    "longitude": 83.9011,
-    "categories": ["60d0fe4f5311236168a109d6"],
-    "images": ["dhampus_trek.jpg"]
-  },
-  {
-    "name": "Khopra Ridge",
-    "description": "A less-traveled trek with stunning views of the Annapurna and Dhaulagiri ranges.",
-    "difficultyLevel": "Moderate",
-    "type": "Trekking",
-    "latitude": 28.4192,
-    "longitude": 83.7746,
-    "categories": ["60d0fe4f5311236168a109d7"],
-    "images": ["khopra_ridge.jpg"]
-  },
-  {
-    "name": "Panchase Trek",
-    "description": "A short and easy trek near Pokhara with views of the Annapurna range.",
-    "difficultyLevel": "Easy",
-    "type": "Hiking",
-    "latitude": 28.2662,
-    "longitude": 83.8091,
-    "categories": ["60d0fe4f5311236168a109d8"],
-    "images": ["panchase_trek.jpg"]
-  },
-  {
-    "name": "Nar Phu Valley",
-    "description": "A remote trek in the Annapurna region exploring ancient villages.",
-    "difficultyLevel": "Moderate",
-    "type": "Trekking",
-    "latitude": 28.6233,
-    "longitude": 84.2191,
-    "categories": ["60d0fe4f5311236168a109d9"],
-    "images": ["nar_phu_valley.jpg"]
-  },
-  {
-    "name": "Dhaulagiri Circuit",
-    "description": "A challenging trek around the Dhaulagiri massif.",
-    "difficultyLevel": "Difficult",
-    "type": "Trekking",
-    "latitude": 28.7467,
-    "longitude": 83.4141,
-    "categories": ["60d0fe4f5311236168a109da"],
-    "images": ["dhaulagiri_circuit.jpg"]
-  },
-  {
-    "name": "Tsum Valley",
-    "description": "A cultural trek in the Manaslu region exploring Tibetan-influenced villages.",
-    "difficultyLevel": "Moderate",
-    "type": "Trekking",
-    "latitude": 28.5677,
-    "longitude": 84.6953,
-    "categories": ["60d0fe4f5311236168a109db"],
-    "images": ["tsum_valley.jpg"]
-  },
-  {
-    "name": "Lukla",
-    "description": "The gateway to the Everest region, popular for its stunning mountain views.",
-    "difficultyLevel": "Easy",
-    "type": "Hiking",
-    "latitude": 27.6886,
-    "longitude": 85.3240,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["lukla.jpg"]
-  },
-  {
-    "name": "Kirtipur",
-    "description": "A historic town with rich cultural heritage and panoramic views.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 27.6516,
-    "longitude": 85.2947,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["kirtipur.jpg"]
-  },
-  {
-    "name": "Rani Pokhari",
-    "description": "A historic pond in Kathmandu with beautiful surroundings.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 27.7101,
-    "longitude": 85.3218,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["rani_pokhari.jpg"]
-  },
-  {
-    "name": "Garden of Dreams",
-    "description": "A peaceful and beautifully landscaped garden in Kathmandu.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 27.7102,
-    "longitude": 85.3194,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["garden_of_dreams.jpg"]
-  },
-  {
-    "name": "Thamel",
-    "description": "A vibrant area in Kathmandu known for its shops, restaurants, and nightlife.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 27.7155,
-    "longitude": 85.2916,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["thamel.jpg"]
-  },
-  {
-    "name": "Gokyo Lakes",
-    "description": "A trek to a series of beautiful high-altitude lakes in the Everest region.",
-    "difficultyLevel": "Difficult",
-    "type": "Trekking",
-    "latitude": 28.5717,
-    "longitude": 86.6208,
-    "categories": ["60d0fe4f5311236168a109ca"],
-    "images": ["gokyo_lakes.jpg"]
-  },
-  {
-    "name": "Sikles",
-    "description": "A culturally rich trek offering views of the Annapurna and Machapuchare mountains.",
-    "difficultyLevel": "Moderate",
-    "type": "Trekking",
-    "latitude": 28.3325,
-    "longitude": 84.0042,
-    "categories": ["60d0fe4f5311236168a109d5"],
-    "images": ["sikles.jpg"]
-  },
-  {
-    "name": "Chisapani",
-    "description": "A short trek from Kathmandu offering great views of the Himalayas.",
-    "difficultyLevel": "Easy",
-    "type": "Hiking",
-    "latitude": 27.7854,
-    "longitude": 85.3076,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["chisapani.jpg"]
+    "latitude": 27.7280,
+    "longitude": 85.4003,
+    "categories": ["60d0fe4f5311236168a109cb"], 
+    "images": ["/uploads/gokarna1.jpg", "/uploads/gokarna2.jpg"]
   },
   {
     "name": "Kakani",
-    "description": "A scenic spot offering views of the Kathmandu Valley and the Himalayas.",
+    "description": "Immerse yourself in the grandeur of the Ganesh Himal and Langtang ranges. A moderate hike leads to breathtaking panoramas that will leave you spellbound.",
+    "difficultyLevel": "Moderate",
+    "type": "Hiking",
+    "latitude": 27.8064,
+    "longitude": 85.2911,
+    "categories": ["60d0fe4f5311236168a109ca"], 
+    "images": ["/uploads/kakani1.jpg", "/uploads/kakani2.jpg"]
+  },
+  {
+    "name": "Bhaktapur Durbar Square",
+    "description": "Step back in time as you explore this living museum of art and architecture. Lose yourself in the intricate carvings and vibrant colors of this historic masterpiece.",
     "difficultyLevel": "Easy",
     "type": "Hiking",
-    "latitude": 27.7486,
-    "longitude": 85.2647,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["kakani.jpg"]
+    "latitude": 27.6710,
+    "longitude": 85.4298,
+    "categories": ["60d0fe4f5311236168a109cd"], 
+    "images": ["/uploads/bhaktapur1.jpg", "/uploads/bhaktapur2.jpg"]
   },
   {
-    "name": "Namo Buddha",
-    "description": "A significant Buddhist pilgrimage site with beautiful views and monastery.",
+    "name": "Panauti",
+    "description": "Unwind in the charm of this ancient town, renowned for its cultural heritage and stunning old houses. Take a leisurely stroll through its winding lanes and soak in the tranquil atmosphere.",
     "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 27.5830,
-    "longitude": 85.5330,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["namo_buddha.jpg"]
-  },
-  {
-    "name": "Gauri Shankar",
-    "description": "A sacred mountain and a challenging trek in the Rolwaling region.",
-    "difficultyLevel": "Difficult",
-    "type": "Trekking",
-    "latitude": 28.3720,
-    "longitude": 86.0431,
-    "categories": ["60d0fe4f5311236168a109ca"],
-    "images": ["gauri_shankar.jpg"]
-  },
-  {
-    "name": "Jomsom",
-    "description": "A gateway to the Mustang region with stunning landscapes.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 28.7839,
-    "longitude": 83.7170,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["jomsom.jpg"]
-  },
-  {
-    "name": "Lumbini",
-    "description": "The birthplace of Buddha, a significant pilgrimage site.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 27.5140,
-    "longitude": 83.2743,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["lumbini.jpg"]
-  },
-  {
-    "name": "Kushma",
-    "description": "A scenic spot known for its stunning views of the Kali Gandaki Gorge.",
-    "difficultyLevel": "Easy",
-    "type": "Sightseeing",
-    "latitude": 28.2224,
-    "longitude": 83.2693,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["kushma.jpg"]
-  },
-  {
-    "name": "Gosaikunda Lake",
-    "description": "A high-altitude lake trek known for its spiritual significance and stunning views.",
-    "difficultyLevel": "Moderate",
-    "type": "Trekking",
-    "latitude": 28.0786,
-    "longitude": 85.4200,
-    "categories": ["60d0fe4f5311236168a109ca"],
-    "images": ["gosaikunda_lake.jpg"]
+    "type": "Hiking",
+    "latitude": 27.5861,
+    "longitude": 85.5128,
+    "categories": ["60d0fe4f5311236168a109cd"], 
+    "images": ["/uploads/panauti1.jpg", "/uploads/panauti2.jpg"]
   },
   {
     "name": "Sundarijal",
-    "description": "A popular destination for a short trek and beautiful waterfalls near Kathmandu.",
+    "description": "Your gateway to the lush Shivapuri National Park. Discover cascading waterfalls and immerse yourself in nature as you embark on a moderate trek through this verdant paradise.",
+    "difficultyLevel": "Moderate",
+    "type": "Trekking",
+    "latitude": 27.7598,
+    "longitude": 85.4242,
+    "categories": ["60d0fe4f5311236168a109ca", "60d0fe4f5311236168a109cb"], 
+    "images": ["/uploads/sundarijal1.jpg", "/uploads/sundarijal2.jpg"]
+  },
+  {
+    "name": "Kulekhani Reservoir",
+    "description": "Experience tranquility by the serene waters of Kulekhani Reservoir. Embark on an easy hike around the lake, surrounded by stunning natural beauty.",
     "difficultyLevel": "Easy",
     "type": "Hiking",
-    "latitude": 27.7724,
-    "longitude": 85.3619,
-    "categories": ["60d0fe4f5311236168a109cf"],
-    "images": ["sundarijal.jpg"]
+    "latitude": 27.5892,
+    "longitude": 85.1294,
+    "categories": ["60d0fe4f5311236168a109cc"], 
+    "images": ["/uploads/kulekhani1.jpg", "/uploads/kulekhani2.jpg"]
   }
 ]
