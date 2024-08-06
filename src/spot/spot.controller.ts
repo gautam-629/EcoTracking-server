@@ -14,9 +14,7 @@ export class SpotController {
     @Body() createSpotDto: CreateSpotDto,
     @UploadedFiles(
       new ParseFilePipeBuilder()
-        // .addFileTypeValidator({
-        //   fileType: 'image/jpeg',
-        // })
+      
         .addMaxSizeValidator({
           maxSize: 1024 * 1024 * 5, // 5 MB
         })

@@ -4,18 +4,23 @@ import { Model, Types } from 'mongoose';
 import { CreateSpotDto } from './dto/create-spot.dto';
 import { UpdateSpotDto } from './dto/update-spot.dto';
 import { ISpot } from './entities/spot.entity';
-import * as fs from 'fs/promises';
-import * as path from 'path';
-import { v4 as uuidv4 } from 'uuid';
+import { v2 as cloudinary } from 'cloudinary';
 
 @Injectable()
 export class SpotService {
-  constructor(@InjectModel('spots') private readonly spotModel: Model<ISpot>) {}
+  constructor(@InjectModel('spots') private readonly spotModel: Model<ISpot>) {
+    // Configure Cloudinary
+    cloudinary.config({
+      cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+      api_key: process.env.CLOUDINARY_API_KEY,
+      api_secret: process.env.CLOUDINARY_API_SECRET
+    });
+  }
 
   async create(createSpotDto: CreateSpotDto, images: Express.Multer.File[]): Promise<ISpot> {
     const createdSpot = new this.spotModel(createSpotDto);
     if (images && images.length > 0) {
-      const imageUrls = await this.saveImages(images);
+      const imageUrls = await this.uploadImages(images);
       createdSpot.images = imageUrls;
     }
     return await createdSpot.save();
@@ -65,12 +70,12 @@ export class SpotService {
 
   async update(id: string, updateSpotDto: UpdateSpotDto, images?: Express.Multer.File[]): Promise<ISpot> {
     const updateData: Partial<ISpot> = { ...updateSpotDto };
-  
+
     if (images && images.length > 0) {
-      const imageUrls = await this.saveImages(images);
+      const imageUrls = await this.uploadImages(images);
       updateData.images = imageUrls;
     }
-  
+
     const updatedSpot = await this.spotModel.findByIdAndUpdate(id, updateData, { new: true }).exec();
     if (!updatedSpot) {
       throw new NotFoundException(`Spot with ID ${id} not found`);
@@ -85,26 +90,21 @@ export class SpotService {
     }
   }
 
-  
-  private async saveImages(images: Express.Multer.File[]): Promise<string[]> {
+  private async uploadImages(images: Express.Multer.File[]): Promise<string[]> {
+    const uploadPromises = images.map(image => 
+      new Promise<string>((resolve, reject) => {
+        const uploadStream = cloudinary.uploader.upload_stream(
+          { folder: 'spots' },
+          (error, result) => {
+            if (error) reject(error);
+            else resolve(result.secure_url);
+          }
+        );
 
+        uploadStream.end(image.buffer);
+      })
+    );
 
-    const uploadDir = path.resolve(__dirname,'../uploads');
-   
-    // Ensure the upload directory exists
-    await fs.mkdir(uploadDir, { recursive: true });
-
-    const savedPaths = await Promise.all(images.map(async (image) => {
-      const fileExtension = path.extname(image.originalname);
-      const fileName = `${uuidv4()}${fileExtension}`;
-      const filePath = path.join(uploadDir, fileName);
-
-      await fs.writeFile(filePath, image.buffer);
-
-      // Return the path relative to the upload directory
-      return `/uploads/${fileName}`;
-    }));
-
-    return savedPaths;
+    return Promise.all(uploadPromises);
   }
 }
