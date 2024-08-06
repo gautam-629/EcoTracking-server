@@ -9,7 +9,7 @@ import { SpotModule } from './spot/spot.module';
 import { ConfigModule } from '@nestjs/config';
 
 @Module({
-  imports: [AuthModule, UsersModule,MongooseModule.forRoot('mongodb://127.0.0.1:27017/EcoTracking'), CatModule, SpotModule,
+  imports: [AuthModule, UsersModule,MongooseModule.forRoot('mongodb+srv://gautam629:3sIQRSTPDXQHRpSd@cluster0.iq1s9uw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'), CatModule, SpotModule,
     ConfigModule.forRoot({
       isGlobal: true,
       envFilePath: '.env',
