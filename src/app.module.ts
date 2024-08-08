@@ -9,7 +9,7 @@ import { SpotModule } from './spot/spot.module';
 import { ConfigModule } from '@nestjs/config';
 
 @Module({
-  imports: [AuthModule, UsersModule,MongooseModule.forRoot('mongodb+srv://gautam629:3sIQRSTPDXQHRpSd@cluster0.iq1s9uw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'), CatModule, SpotModule,
+  imports: [AuthModule, UsersModule,MongooseModule.forRoot('mongodb+srv://root:tMJl4HpD3ur5fVLa@cluster0.ctlruaz.mongodb.net/Eco-Tracking?retryWrites=true&w=majority&appName=Cluster0'), CatModule, SpotModule,
     ConfigModule.forRoot({
       isGlobal: true,
       envFilePath: '.env',
@@ -19,3 +19,5 @@ import { ConfigModule } from '@nestjs/config';
   providers: [AppService],
 })
 export class AppModule {}
+
+
